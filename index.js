@@ -1,3 +1,3 @@
 function produceDrivingRange(range) {
-  return function
+  return function(block1, block2)
 }
