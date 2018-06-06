@@ -14,3 +14,4 @@ function produceTipCalculator(percentage) {
     return fare * percentage;
   }
 }
+
