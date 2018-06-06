@@ -1,5 +1,5 @@
-function produceDrivingRange(range) {
+function produceDrivingRange(blockRange) {
   return function(block1, block2){
-    return Math.abs(block1.slice(0, 1) - block2.slice(0, 1)) <= range;
+    return Math.abs(block1.slice(0, 1) - block2.slice(0, 1)) <= blockRange;
   }
 }
